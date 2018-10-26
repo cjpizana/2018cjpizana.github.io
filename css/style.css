@@ -131,21 +131,16 @@ h2 {
 	padding-bottom:0;
 }
 li {
-	display: inline-block;
-	padding-left:10px;
+	display: block;
 	color:#4a1c1c;
+}
+ul {
+	padding:0;
 }
 .col {
 	color:grey;
-}
-#ts {
-	display:block;
-	text-align:center;
-	margin-right:40px;
-}
-#ts1 {
-	margin-right:55px;
-	display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
 i {
 	color:#4a1c1c;
@@ -217,6 +212,7 @@ footer{
 		padding:0;
 	}
 	#projects {
-		margin-left:25%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
